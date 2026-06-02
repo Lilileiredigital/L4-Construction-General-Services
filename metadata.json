@@ -1,0 +1,6 @@
+{
+  "name": "L4 Construction & General Services",
+  "description": "Sitio web profesional de L4 Construction & General Services, contratista especialista en instalación de pisos, drywall, carpintería, pintura y decks en Nueva York.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
