@@ -97,7 +97,7 @@ export default function App() {
       "Descripción del Proyecto": formDesc || "Sin descripción adicional",
       "_subject": `Nuevo presupuesto solicitado: ${formService} - ${formName}`,
       "_honey": "", // honeypot spam protection
-      "_cc": "inversionespereira1979@gmail.com"
+      "_cc": "l4construction79@gmail.com"
     };
 
     // Step animation for supreme realism
@@ -131,7 +131,7 @@ export default function App() {
 
           // Try to dispatch actual email via FormSubmit API
           try {
-            await fetch("https://formsubmit.co/ajax/inversionespereira1979@gmail.com", {
+            await fetch("https://formsubmit.co/ajax/l4construction79@gmail.com", {
               method: "POST",
               headers: {
                 "Content-Type": "application/json",
@@ -208,7 +208,7 @@ export default function App() {
           "name": "L4 Construction & General Services - Pisos y Acabados de Construcción",
           "image": "https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?auto=format&fit=crop&q=80&w=1200",
           "telephone": "(408) 489-8012",
-          "email": "inversionespereira1979@gmail.com",
+          "email": "l4construction79@gmail.com",
           "address": {
             "@type": "PostalAddress",
             "addressLocality": "Nueva York y New Jersey",
@@ -1180,13 +1180,13 @@ export default function App() {
                 </div>
               </a>
 
-              <a href="mailto:inversionespereira1979@gmail.com" className="flex items-center gap-4 p-4 rounded-2xl bg-blue-950 border border-blue-800 hover:border-white transition-all group block text-left">
+              <a href="mailto:l4construction79@gmail.com" className="flex items-center gap-4 p-4 rounded-2xl bg-blue-950 border border-blue-800 hover:border-white transition-all group block text-left">
                 <div className="p-3 rounded-xl bg-blue-900 text-blue-300 group-hover:scale-110 transition-transform">
                   <Mail className="w-5 h-5 text-blue-300" />
                 </div>
                 <div className="overflow-hidden">
                   <p className="text-[10px] text-blue-200 font-bold uppercase tracking-wider">Correo Directo</p>
-                  <p className="text-xs sm:text-sm font-black text-white truncate leading-tight">inversionespereira1979@gmail.com</p>
+                  <p className="text-xs sm:text-sm font-black text-white truncate leading-tight">l4construction79@gmail.com</p>
                   <p className="text-[11px] text-blue-200 font-bold">Le responderemos en un plazo de hasta 24hs</p>
                 </div>
               </a>
@@ -1226,7 +1226,7 @@ export default function App() {
                 <div className="space-y-2">
                   <h3 className="text-xl sm:text-2xl font-black text-blue-900">¡Presupuesto Solicitado con Éxito!</h3>
                   <p className="text-xs sm:text-sm text-gray-600 font-semibold max-w-md mx-auto">
-                    La solicitud de cotización para <strong>{formService || 'Servicio General'}</strong> ha sido registrada en el sistema y enviada automáticamente por correo electrónico a: <br /><strong className="text-blue-900 font-bold">inversionespereira1979@gmail.com</strong>
+                    La solicitud de cotización para <strong>{formService || 'Servicio General'}</strong> ha sido registrada en el sistema y enviada automáticamente por correo electrónico a: <br /><strong className="text-blue-900 font-bold">l4construction79@gmail.com</strong>
                   </p>
                   <p className="text-xs text-gray-400 font-medium">
                     L4 Construction se pondrá en contacto pronto por teléfono o mail para agendar una visita en terreno o dar seguimiento.
@@ -1541,7 +1541,7 @@ export default function App() {
                   <Mail className="w-3.5 h-3.5 text-blue-900 flex-shrink-0 mt-0.5" />
                   <div className="overflow-hidden">
                     <p className="text-blue-900 font-black leading-none pb-0.5">Correo Directo:</p>
-                    <a href="mailto:inversionespereira1979@gmail.com" className="hover:text-blue-900 text-gray-500 truncate block font-sans">inversionespereira1979@gmail.com</a>
+                    <a href="mailto:l4construction79@gmail.com" className="hover:text-blue-900 text-gray-500 truncate block font-sans">l4construction79@gmail.com</a>
                     <p className="text-[10px] text-gray-400 mt-1">Le responderemos en un plazo de hasta 24hs</p>
                   </div>
                 </li>
