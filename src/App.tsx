@@ -34,7 +34,8 @@ import {
   Award,
   ChevronDown,
   Trash2,
-  RefreshCw
+  RefreshCw,
+  Instagram
 } from 'lucide-react';
 import { services, galleryItems, testimonials, reasonsToChoose } from './data';
 import { Service, GalleryItem, LeadMessage } from './types';
@@ -1191,6 +1192,17 @@ export default function App() {
                 </div>
               </a>
 
+              <a href="https://www.instagram.com/l4construction79" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 p-4 rounded-2xl bg-[#24111e] border border-[#4a1e35] hover:border-pink-500 transition-all group block text-left">
+                <div className="p-3 rounded-xl bg-[#52173a] text-pink-300 group-hover:scale-110 transition-transform">
+                  <Instagram className="w-5 h-5 text-pink-300" />
+                </div>
+                <div>
+                  <p className="text-[10px] text-pink-300 font-bold uppercase tracking-wider">Síganos en Instagram</p>
+                  <p className="text-base sm:text-lg font-black text-white leading-tight">@l4construction79</p>
+                  <p className="text-[11px] text-pink-300 font-bold">Vea fotos y videos de nuestros acabados reales</p>
+                </div>
+              </a>
+
               <div className="flex items-center gap-4 p-4 rounded-2xl bg-blue-950 border border-blue-800 text-left">
                 <div className="p-3 rounded-xl bg-blue-900 text-blue-200">
                   <MapPin className="w-5 h-5 text-blue-300" />
@@ -1543,6 +1555,22 @@ export default function App() {
                     <p className="text-blue-900 font-black leading-none pb-0.5">Correo Directo:</p>
                     <a href="mailto:l4construction79@gmail.com" className="hover:text-blue-900 text-gray-500 truncate block font-sans">l4construction79@gmail.com</a>
                     <p className="text-[10px] text-gray-400 mt-1">Le responderemos en un plazo de hasta 24hs</p>
+                  </div>
+                </li>
+
+                <li className="flex items-start gap-2.5">
+                  <Instagram className="w-4 h-4 text-pink-600 flex-shrink-0 mt-0.5" />
+                  <div>
+                    <p className="text-blue-900 font-black leading-none pb-0.5">Instagram:</p>
+                    <a 
+                      href="https://www.instagram.com/l4construction79" 
+                      target="_blank" 
+                      rel="noopener noreferrer" 
+                      className="hover:text-pink-600 text-gray-500 block font-sans"
+                    >
+                      @l4construction79
+                    </a>
+                    <p className="text-[10px] text-gray-400 mt-1">Siga nuestras últimas obras en tiempo real</p>
                   </div>
                 </li>
 
